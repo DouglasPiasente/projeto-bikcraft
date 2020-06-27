@@ -377,7 +377,7 @@ header {
     margin: -5px auto 10px auto;
 }
 
-.interna-sobre p {
+.interna-sobre p, .interna-produtos p {
     color: white;
 }
 
@@ -418,4 +418,76 @@ header {
     height: 3px;
     background-color: black;
     margin: 0 0 20px 0
+}
+
+.interna-produtos {
+    background: url(../img/bg-produtos.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.produto-item {
+    padding-top: 60px;
+}
+
+.produto-item h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    margin-bottom: -52px;
+}
+
+.produto-item h2:before, .produto-item h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 4px auto 6px auto;
+}
+
+
+.produto-icone {
+    background: black;
+    padding: 68px 0;
+}
+
+.produto-item .bloco-passeio .produto-icone img {
+  margin-left: 40px;
+}
+
+.produto-info {
+    background-color: black;
+}
+.produto-info p {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px 40px;
+    height: 180px;
+}
+
+.produto-info ul li {
+    background-color: #fec63e ;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    float: left;
+    width: 229px;
+    height: 49px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.produto-info ul li:nth-child(even) {
+    margin-left: 2px;
+}
+
+.produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2) {
+    margin-bottom: 2px;
 }
