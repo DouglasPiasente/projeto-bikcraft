@@ -191,7 +191,6 @@
 	
 	.produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2) {
 		margin-bottom: 0px;
-		margin-bottom: none;
 	}
 
 	.form, .orcamento-dados ul {
