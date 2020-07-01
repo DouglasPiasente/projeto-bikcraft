@@ -28,25 +28,48 @@
 
 		<section class="introducao-interna interna-portifolio">
 			<div class="container">
-				<h1>Portifólio</h1>
-				<p>Conheça os projetos que amamos mostrar</p>
+				<h1 data-anime="350">Portifólio</h1>
+				<p data-anime="700">Conheça os projetos que amamos mostrar</p>
 			</div>
 		</section>
 
-		<section class="container">
-			<blockquote class="quote-clientes">
+		<section data-anime="1400" class="container" data-slide="quote-cliente">
+			<blockquote class="quote-clientes" >
 				<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum atque suscipit harum, impedit possimus at excepturi omnis architecto nihil perspiciatis! Ab velit esse perspiciatis. Cupiditate quod dolore voluptatum natus nostrum!"</p>
 				<cite>Barbara Moss</cite>
 			</blockquote>
+
+			<blockquote class="quote-clientes" >
+				<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti fuga earum rerum, dignissimos libero totam modi, sint doloribus dolorum assumenda voluptatem aspernatur rem tenetur veritatis molestiae fugit nam porro."</p>
+				<cite>Jhony Rato</cite>
+			</blockquote>
+
+			<blockquote class="quote-clientes" >
+				<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis nulla ipsa quos fugiat dolores hic repellat incidunt. Labore explicabo nobis nemo possimus incidunt! In excepturi alias nesciunt accusamus asperiores?"</p>
+				<cite>Bernardo Silva</cite>
+			</blockquote>
 		</section>
 		
-		<section class="portifolio port-port">
+		<section class="portifolio port-port" data-anime="1700" data-slide="portifolio">
 				<div class="container">
 					<div class="grid-8">
 						<img src="img/portfolio/retro.jpg" alt="bicicletas retrô">
 					</div>
 					<div class="grid-8">
 						<img src="img/portfolio/passeio.jpg" alt="bicicleta passeio">
+					</div>
+					<div class="grid-16 foto-esporte">
+						<img src="img/portfolio/esporte.jpg" alt="bicicleta esporte">
+					</div>
+					<!-- Se fizer com lista (ul e li), no CSS usar o comando .portifolio_lista li:last-child{ margin-top: 20px;  para dar a margem entre a ultima imagem e as duas primeiras-->
+				</div>	
+
+				<div class="container">
+					<div class="grid-8">
+						<img src="img/produtos/bikcraft-retro-2.jpg" alt="bicicletas retrô">
+					</div>
+					<div class="grid-8">
+						<img src="img/portfolio/retro.jpg" alt="bicicleta passeio">
 					</div>
 					<div class="grid-16 foto-esporte">
 						<img src="img/portfolio/esporte.jpg" alt="bicicleta esporte">
@@ -96,5 +119,8 @@
 				</div>
 			</div>
 		</footer>
+		<script src="js/simple-anime.js"></script>
+		<script src="js/simple-slide.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
